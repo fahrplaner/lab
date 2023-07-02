@@ -35,18 +35,18 @@ Prerequisites
 
 Checkout which `version of Ruby <https://redmine.org/projects/redmine/wiki/RedmineInstall>`_
 is supported by your desired version of Redmine. Redmine version 4 for example
-expects Ruby 2.2, 2.3, 2.4, 2.5 or 2.6.
+expects Ruby 2.2, 2.3, 2.4, 2.5, 2.6 or 2.7.
 
 Run ``uberspace tools version show ruby`` to show which Ruby version is currently
 active on your Uberspace and ``uberspace tools version list ruby`` to list all
 available ones.
 
-To set Ruby version 2.5 you could run (but there is no need to do so if one of the above is already active):
+To set Ruby version 2.7 you could run (but there is no need to do so if one of the above is already active):
 
 .. code-block:: console
 
-  [isabell@stardust ~]$ uberspace tools version use ruby 2.5
-  Selected Ruby version 2.5
+  [isabell@stardust ~]$ uberspace tools version use ruby 2.7
+  Selected Ruby version 2.7
   [isabell@stardust ~]$
 
 Ruby requires a database, so you should create an empty database now.
